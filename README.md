@@ -2,6 +2,15 @@
    <img src="http://fineuploader.smartimage.com/pimg/a8680d51" width="300">
 </a>
 
+# Important Notice
+
+Branch of this repo is built version of Fine Uploader with [PR DnD fix](https://github.com/FineUploader/fine-uploader/pull/1819) applied.
+You can use this in your `package.json`
+
+```
+"fine-uploader": "ramusus/fine-uploader#5.15.0-dist",
+```
+
 # Looking for a new maintainer - please [inquire within](https://github.com/FineUploader/fine-uploader/issues/1881).
 
 [![Build Status](https://travis-ci.org/FineUploader/fine-uploader.svg?branch=master)](https://travis-ci.org/FineUploader/fine-uploader)
@@ -57,7 +66,7 @@ Are you using Fine Uploader inside of a larger framework (such as React, Angular
 
 ### Contribute code
 
-The best way to contribute code is to open up a pull request that addresses one of the open [feature requests or bugs][issues]. In order to get started developing Fine Uploader, read this entire section to get the project up and running on your local development machine. This section describes how you can build and test Fine Uploader locally. You may use these instructions to build a copy for yourself, or to contribute changes back to the library. 
+The best way to contribute code is to open up a pull request that addresses one of the open [feature requests or bugs][issues]. In order to get started developing Fine Uploader, read this entire section to get the project up and running on your local development machine. This section describes how you can build and test Fine Uploader locally. You may use these instructions to build a copy for yourself, or to contribute changes back to the library.
 
 #### Setup
 
@@ -70,7 +79,7 @@ To pull down the project & build dependencies:
 
 #### Generating build artifacts
 
-- To build all build artifacts for all endpoint types: `make build`. You can speed this process up a bit by using the parallel recipes feature of Make: `make build -j`. If you would like to build only a specific endpoint type, see the Makefile for the appropriate recipe. The build output will be created in the `_build` directory. 
+- To build all build artifacts for all endpoint types: `make build`. You can speed this process up a bit by using the parallel recipes feature of Make: `make build -j`. If you would like to build only a specific endpoint type, see the Makefile for the appropriate recipe. The build output will be created in the `_build` directory.
 - To build zip files for all endpoint types: `make zip`. To build a zip for only a specific endpoint type, see the Makefile for the appropriate recipe. The zip files will be included alongside the build output in the `_build` directory.
 - To rev the version number: `make rev-version target=NEW_VERSION`, where `NEW_VERSION` is the semver-compatible target version identifier.
 
