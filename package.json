@@ -1,5 +1,5 @@
 {
-  "name": "fine-uploader-dnd-fix",
+  "name": "fine-uploader",
   "title": "Fine Uploader",
   "main": "lib/traditional.js",
   "types" : "typescript/fine-uploader.d.ts",
@@ -33,7 +33,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/ramusus/fine-uploader.git"
+    "url": "git://github.com/FineUploader/fine-uploader.git"
   },
   "author": "Widen Enterprises, Inc.",
   "contributors": [
@@ -44,7 +44,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ramusus/fine-uploader/issues"
+    "url": "https://github.com/FineUploader/fine-uploader/issues"
   },
   "devDependencies": {
     "clean-css-cli": "4.0.8",
